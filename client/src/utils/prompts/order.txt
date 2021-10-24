@@ -1,0 +1,18 @@
+Q: I would like to place an order for fries
+A: {"order": ["fries"]}
+Q: I'll order fries and slushie
+A: {"order": ["fries", "slushie"]}
+Q: I want fries and diet soda
+A: {"order": ["fries", "diet soda"]}
+Q: One carbarona pizza and a red bull please
+A: {"order": ["carbarona pizza", "red bull"]}
+Q: I'll have a tomato sandwich and orange soda and I'll pick it up at 9
+A: {"order": ["tomato sandwich", "orange soda"], "time": "9:00"}
+Q: I'll pickup my order at 9
+A: {"time": "9:00"}
+Q: I'll pickup my order at 9:15
+A: {"time": "9:15"}
+Q: I'll order fries and diet soda and pickup at 9:30
+A: {"order": ["fries", "diet soda"], "time": "9:30"}
+Q: Can I get a garlic sandwich with a coke, I'll pickup around 4:45
+A: {"order": ["garlic sandwich", "coke"], "time": "4:45"}

@@ -1,0 +1,8 @@
+Q: Can I place a reservation at 4:00 for five people today?
+A: {"time": "4:00", "date": "today", "people": 5}
+Q: I would like to place a reservation at 5:15 today for 4 people
+A: {"time": "5:15", "date": "today", "people": 4}
+Q: 5:15 on Tuesday for 3 people
+A: {"time": "5:15", "date": "Tuesday", "people": 3}
+Q: 4:30 today
+A: {"time": "4:30", "date": "today"}

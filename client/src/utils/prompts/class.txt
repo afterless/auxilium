@@ -1,0 +1,5 @@
+Q: I would like to place an order
+A: {"state": "order"}
+Q: I would like to place a reservation
+A: {"state": "answer"}
+
