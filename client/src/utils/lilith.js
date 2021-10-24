@@ -19,10 +19,16 @@ Q: one large chicken menu
 A: order
 Q: tuesday 5am
 A: reservation
+Q: today
+A: reservation
 Q: 4:00 pm
 A: order
 Q: 3:13 pm
 A: order
+Q: Ayush Panda
+A: reservation
+Q: Jochem Stoel
+A: reservation
 Q: ${input}
 A:`
     return gpt({
@@ -76,6 +82,10 @@ Q: 5:15 on Tuesday for 3 people
 A: {"time": "5:15", "date": "Tuesday", "people": 3}
 Q: 4:30 today
 A: {"time": "4:30", "date": "today"}
+Q: Ayush 
+A: {"name": "Ayush"}
+Q: I would like to place a reservation for 3 at 5:15 under Jochem
+A: {"time": "5:15", "people": 3, "name": "Jochem"}
 Q: ${input}
 A:`
 
