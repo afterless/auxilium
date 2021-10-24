@@ -1,0 +1,33 @@
+/* CSS code for the AboutPage html, FrontPage html, and GettingStarted html*/ 
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #C2F970; 
+}
+
+body {
+    background-color: #98A6D4;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    border: 2px solid #44344F;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 150%;
+    color: #44344F;
+}
+
+p, label{
+    color:#44344F; 
+    font-size: 100%;
+    font-weight: 400;
+}
+
+button{
+    background-color: #44344F; 
+    font-size: 20px;
+    color: #C2F970; 
+}
